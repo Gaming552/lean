@@ -12,6 +12,7 @@ from time import sleep
 import sys
 import colorama
 from colorama import Fore
+from ok import get_mobile
 
 if sys.platform == "win32":
     clear = lambda: os.system("cls")
